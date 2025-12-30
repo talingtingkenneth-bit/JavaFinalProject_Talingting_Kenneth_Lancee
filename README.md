@@ -22,3 +22,36 @@ Accepting User Inputs: The program uses the Scanner class to pause the console a
 
 *Handling User Choice: If you type 'yes' or 'YES' (Yes): The loop restarts from the beginning, clearing the temporary inputs and asking for a new weight and height.
 If you type 'no' or 'NO' (No): The loop breaks, and the program executes a final method to display a summary of all the stored BMI results from the array before closing.
+
+Sample Output:
+=== Java BMI Calculator Application ===
+
+--- New Calculation ---
+Enter Weight (in Kilograms): 55
+Enter Height (in Meters): 1.7
+Result: Your BMI is 19.03
+Category: Normal Weight
+
+Calculate for another person? (YES/NO): yes
+
+--- New Calculation ---
+Enter Weight (in Kilograms): 80
+Enter Height (in Meters): 3.2
+Result: Your BMI is 7.81
+Category: Underweight
+
+Calculate for another person? (YES/NO): no
+
+=========================================
+       SESSION SUMMARY REPORT
+=========================================
+Total Calculations Performed: 2
+Recorded BMIs: [ 19.03 | 7.81 ]
+
+Thank you for using the BMI Calculator.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  37.058 s
+Finished at: 2025-12-30T13:58:04+08:00
+------------------------------------------------------------------------
